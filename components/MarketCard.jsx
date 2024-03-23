@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../components/pngs/pexels-pixabay-36717.jpg"
+import img from "../components/pngs/bgimg.jpeg"
 import Image from 'next/image';
 
 function MarketCard({marketData}) {
