@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 
 const users = () => {
-  return <Layout>Sentiment</Layout>;
+  return <Layout>Watchlist</Layout>;
 };
 
 export default users;
