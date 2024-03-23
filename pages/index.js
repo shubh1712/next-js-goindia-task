@@ -46,11 +46,11 @@ export default function Home() {
           <h2 className="bg-primary rounded-md p-4 text-center">
             Market Stories
           </h2>
-          {dummyDataMarket.map((marketData,index)=>{
-            <div key={index} >
-            <MarketCard data ={marketData} />
-          </div>
-          })}
+          {dummyDataMarket.map((marketData, index) => (
+  <div key={index}>
+    <MarketCard marketData={marketData} />
+  </div>
+))}
         </div>
       )}
     </Layout>
